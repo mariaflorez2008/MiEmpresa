@@ -16,5 +16,44 @@
         <p>Tenemos servicio 24/7</p>
         <img src="imagenes/manicura-chicadeazul.webp" width="40%">
      </div>
+            <h2 style="text-align: center;">Llenar formulario</h2>
+            <div style="display: flex; justify-content: center;">
+            <form>
+                <label="">Nombre</label>
+              <input type="text"aria-placeholder="En mayuscula"> <br>
+              <label="">Telefono</label>
+              <input type="number"> <br>
+              <label=>Correo electronico</label>
+              <input type="email" required> <br>
+              <label=>Fecha de nacimiento</label>
+              <input type="date" min="1980-01-31" max="2007-12-31"> <br><br><br>
+              <label=>Edad</label>
+              <input type="number"min="18" max="50"> <br>
+              <label=>Sube una foto:</label> 
+              <input type="file" accept=".jpg, .png, .jpeg,"> <br>
+              <label=>Seleccione un genero:</label> <br>
+              <input type="radio" name="genero" value="Hombre">Hombre
+              <input type="radio" name="genero" value="Mujer">Mujer
+              <input type="radio" name="genero" value="Otro">Otro
+              <br>
+              <label=>Selecciona productos:</label> <br>
+              <input type="checkbox" name="productos" value="acrilico">acrilico
+              <input type="checkbox" name="productos" value="press on">press on
+              <input type="checkbox" name="productos" value="semipermanente">semipermanente
+              <br>
+              <label=>¿como te contactamos?</label>
+              <select name="contacto">
+                <option value="Humo">señales de humo</option>
+                <option value="Paloma">Paloma mensajera</option>
+            </select>
+            <br>
+            <label=>Mensaje</label>
+            <br>
+            <textarea name="mensaje"></textarea>
+            <br><br><br>
+            <Button type="submit">Enviar</Button>
+            <button type="reset">Borrar</button>
+            </form>
+     </div>
 </body>
 </html>
